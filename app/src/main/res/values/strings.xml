@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">StoreExample</string>
+
+    <!--  Товары  -->
+    <string-array name="product_1">
+        <item>Название продукта</item>      <!-- Название -->
+        <item>Описание продукта</item>      <!-- Описание -->
+        <item>1 RUB</item>                  <!-- Стоимость -->
+        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
+        <item>capcap</item>                 <!-- Название изображения товара -->
+        <item>10000</item>                     <!-- Количество товара -->
+        <item>10</item>                     <!-- Отзывы  -->
+    </string-array>
+    <string-array name="product_2">
+        <item>Название продукта</item>      <!-- Название -->
+        <item>Описание продукта</item>      <!-- Описание -->
+        <item>1 RUB</item>                  <!-- Стоимость -->
+        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
+        <item>capcap</item>                 <!-- Название изображения товара -->
+        <item>10</item>                     <!-- Количество товара -->
+        <item>10</item>                     <!-- Отзывы  -->
+    </string-array>
+    <string-array name="product_3">
+        <item>Название продукта</item>      <!-- Название -->
+        <item>Описание продукта</item>      <!-- Описание -->
+        <item>1 RUB</item>                  <!-- Стоимость -->
+        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
+        <item>capcap</item>                 <!-- Название изображения товара -->
+        <item>10</item>                     <!-- Количество товара -->
+        <item>10</item>                     <!-- Отзывы  -->
+    </string-array>
+    <string-array name="product_4">
+        <item>Название продукта</item>      <!-- Название -->
+        <item>Описание продукта</item>      <!-- Описание -->
+        <item>1 RUB</item>                  <!-- Стоимость -->
+        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
+        <item>capcap</item>                 <!-- Название изображения товара -->
+        <item>10</item>                     <!-- Количество товара -->
+        <item>10</item>                     <!-- Отзывы  -->
+    </string-array>
+    <string-array name="product_5">
+        <item>Название продукта</item>      <!-- Название -->
+        <item>Описание продукта</item>      <!-- Описание -->
+        <item>1 RUB</item>                  <!-- Стоимость -->
+        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
+        <item>capcap</item>                 <!-- Название изображения товара -->
+        <item>10</item>                     <!-- Количество товара -->
+        <item>10</item>                     <!-- Отзывы  -->
+    </string-array>
+    <string-array name="product_6">
+        <item>Название продукта</item>      <!-- Название -->
+        <item>Описание продукта</item>      <!-- Описание -->
+        <item>1 RUB</item>                  <!-- Стоимость -->
+        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
+        <item>capcap</item>                 <!-- Название изображения товара -->
+        <item>10</item>                     <!-- Количество товара -->
+        <item>10</item>                     <!-- Отзывы  -->
+    </string-array>
+    <string-array name="product_7">
+        <item>Название продукта</item>      <!-- Название -->
+        <item>Описание продукта</item>      <!-- Описание -->
+        <item>1 RUB</item>                  <!-- Стоимость -->
+        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
+        <item>capcap</item>                 <!-- Название изображения товара -->
+        <item>10</item>                     <!-- Количество товара -->
+        <item>10</item>                     <!-- Отзывы  -->
+    </string-array>
+    <string-array name="product_8">
+        <item>Название продукта</item>      <!-- Название -->
+        <item>Описание продукта</item>      <!-- Описание -->
+        <item>1 RUB</item>                  <!-- Стоимость -->
+        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
+        <item>capcap</item>                 <!-- Название изображения товара -->
+        <item>10</item>                     <!-- Количество товара -->
+        <item>10</item>                     <!-- Отзывы  -->
+    </string-array>
+    <!--  Отзывы  -->
+    <string-array name="person_1">
+        <item>Carmen D.</item>
+        <item>17.03.2022</item>
+        <item>5</item>
+        <item>Maravillosa fórmula con ácido hialurónico. Me encanta.</item>
+    </string-array>
+    <string-array name="person_2">
+        <item>Karina</item>
+        <item>17.03.2022</item>
+        <item>5</item>
+        <item>He probado ácido hialurónico en múltiples oportunidades y sus resultados son siempre sorprendentes aunque odio las agujas. Inno Gialuron es la solución.</item>
+    </string-array>
+    <string-array name="person_3">
+        <item>Roberta</item>
+        <item>18.03.2022</item>
+        <item>5</item>
+        <item>Estoy radiante, joven y bella. Nadie me daría más de 50 años.</item>
+    </string-array>
+</resources>
