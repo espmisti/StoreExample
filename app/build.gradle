@@ -52,10 +52,15 @@ dependencies {
     //
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0-alpha04"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0-alpha06"
     //View Pager
     implementation "androidx.viewpager2:viewpager2:1.0.0"
+    implementation 'me.relex:circleindicator:2.1.6'
     // Rounded image view
     implementation 'com.makeramen:roundedimageview:2.3.0'
+    //Appsflyer
+    implementation 'com.appsflyer:af-android-sdk:6.3.2'
+    //Ip
+    implementation 'com.github.chintan369:Ipify-Android:1.0.1'
 
 }

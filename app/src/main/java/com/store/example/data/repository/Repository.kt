@@ -1,9 +1,8 @@
-package com.store.example.repository
+package com.store.example.data.repository
 
 import android.util.Log
 import com.store.example.data.api.ApiService
 import com.store.example.utils.Constants
-import org.json.JSONObject
 
 class Repository {
 

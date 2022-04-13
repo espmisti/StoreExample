@@ -1,8 +1,7 @@
 package com.store.example.data.api
 
-import com.store.example.model.RequestResponse
+import com.store.example.data.model.RequestResponse
 import com.store.example.utils.Constants
-import kotlinx.coroutines.Deferred
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

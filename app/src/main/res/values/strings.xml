@@ -1,34 +1,64 @@
 <resources>
     <string name="app_name">StoreExample</string>
 
-    <!--  Товары  -->
+
+
+    <!--  Мексиканский  -->
+    <string-array name="product_mexico">
+        <item>Мексиканский</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra justo nec ultrices dui sapien eget mi proin. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Ornare arcu dui vivamus arcu felis. Eget sit amet tellus cras adipiscing enim eu turpis. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Amet volutpat consequat mauris nunc congue nisi vitae. Sed nisi lacus sed viverra tellus in hac habitasse. Sodales neque sodales ut etiam sit amet. Elementum sagittis vitae et leo duis ut diam. Congue nisi vitae suscipit tellus mauris a diam. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique.\n\n
+        Nec dui nunc mattis enim ut tellus. Non sodales neque sodales ut etiam. Hendrerit dolor magna eget est lorem ipsum dolor sit. Urna nunc id cursus metus aliquam. Sit amet risus nullam eget. Diam in arcu cursus euismod quis viverra nibh cras. Cras ornare arcu dui vivamus. Non pulvinar neque laoreet suspendisse. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Libero id faucibus nisl tincidunt eget nullam. A arcu cursus vitae congue mauris rhoncus. Pulvinar proin gravida hendrerit lectus a. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat.\n\n</item>
+        <item>890 PESOS_1780</item>
+        <item>5</item>
+        <item>capcap</item>
+        <item>115</item>
+        <item>28531</item>
+    </string-array>
+
+    <!--  Перуанский  -->
+    <string-array name="product_peru">
+        <item>Перуанский №1</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra justo nec ultrices dui sapien eget mi proin. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Ornare arcu dui vivamus arcu felis. Eget sit amet tellus cras adipiscing enim eu turpis. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Amet volutpat consequat mauris nunc congue nisi vitae. Sed nisi lacus sed viverra tellus in hac habitasse. Sodales neque sodales ut etiam sit amet. Elementum sagittis vitae et leo duis ut diam. Congue nisi vitae suscipit tellus mauris a diam. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique.\n\n
+        Nec dui nunc mattis enim ut tellus. Non sodales neque sodales ut etiam. Hendrerit dolor magna eget est lorem ipsum dolor sit. Urna nunc id cursus metus aliquam. Sit amet risus nullam eget. Diam in arcu cursus euismod quis viverra nibh cras. Cras ornare arcu dui vivamus. Non pulvinar neque laoreet suspendisse. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Libero id faucibus nisl tincidunt eget nullam. A arcu cursus vitae congue mauris rhoncus. Pulvinar proin gravida hendrerit lectus a. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat.\n\n</item>
+        <item>298 Soles</item>
+        <item>5</item>
+        <item>capcap</item>
+        <item>6234</item>
+        <item>452</item>
+    </string-array>
+
+    <string-array name="product_peru_2">
+        <item>Перуанский №2</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra justo nec ultrices dui sapien eget mi proin. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Ornare arcu dui vivamus arcu felis. Eget sit amet tellus cras adipiscing enim eu turpis. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Amet volutpat consequat mauris nunc congue nisi vitae. Sed nisi lacus sed viverra tellus in hac habitasse. Sodales neque sodales ut etiam sit amet. Elementum sagittis vitae et leo duis ut diam. Congue nisi vitae suscipit tellus mauris a diam. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique.\n\n
+        Nec dui nunc mattis enim ut tellus. Non sodales neque sodales ut etiam. Hendrerit dolor magna eget est lorem ipsum dolor sit. Urna nunc id cursus metus aliquam. Sit amet risus nullam eget. Diam in arcu cursus euismod quis viverra nibh cras. Cras ornare arcu dui vivamus. Non pulvinar neque laoreet suspendisse. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Libero id faucibus nisl tincidunt eget nullam. A arcu cursus vitae congue mauris rhoncus. Pulvinar proin gravida hendrerit lectus a. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat.\n\n</item>
+        <item>149 Soles</item>
+        <item>5</item>
+        <item>capcap</item>
+        <item>2523</item>
+        <item>156</item>
+    </string-array>
+
+
+    <!--    -->
     <string-array name="product_1">
-        <item>Название продукта</item>      <!-- Название -->
-        <item>Описание продукта</item>      <!-- Описание -->
-        <item>1 RUB</item>                  <!-- Стоимость -->
-        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
-        <item>capcap</item>                 <!-- Название изображения товара -->
-        <item>10000</item>                     <!-- Количество товара -->
-        <item>10</item>                     <!-- Отзывы  -->
+        <item>Название продукта</item>
+        <item>Описание продукта</item>
+        <item>1 RUB</item>
+        <item>1</item>
+        <item>capcap</item>
+        <item>10</item>
+        <item>10</item>
     </string-array>
     <string-array name="product_2">
-        <item>Название продукта</item>      <!-- Название -->
-        <item>Описание продукта</item>      <!-- Описание -->
-        <item>1 RUB</item>                  <!-- Стоимость -->
-        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
-        <item>capcap</item>                 <!-- Название изображения товара -->
-        <item>10</item>                     <!-- Количество товара -->
-        <item>10</item>                     <!-- Отзывы  -->
+        <item>Название продукта</item>
+        <item>Описание продукта</item>
+        <item>1 RUB</item>
+        <item>1</item>
+        <item>capcap</item>
+        <item>10</item>
+        <item>10</item>
     </string-array>
-    <string-array name="product_3">
-        <item>Название продукта</item>      <!-- Название -->
-        <item>Описание продукта</item>      <!-- Описание -->
-        <item>1 RUB</item>                  <!-- Стоимость -->
-        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
-        <item>capcap</item>                 <!-- Название изображения товара -->
-        <item>10</item>                     <!-- Количество товара -->
-        <item>10</item>                     <!-- Отзывы  -->
-    </string-array>
+    <!--    -->
     <string-array name="product_4">
         <item>Название продукта</item>      <!-- Название -->
         <item>Описание продукта</item>      <!-- Описание -->

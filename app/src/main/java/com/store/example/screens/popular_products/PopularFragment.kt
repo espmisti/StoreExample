@@ -21,13 +21,14 @@ class PopularFragment : Fragment() {
     ): View? {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_popular, container, false)
 
-        val array = arrayListOf(R.array.product_1, R.array.product_2, R.array.product_3)
         val lm = LinearLayoutManager(context)
         lm.orientation = LinearLayoutManager.HORIZONTAL
         binding.popularRV.layoutManager = lm
 
+        val array = activity?.intent?.getIntegerArrayListExtra("ProductsPopular")
+
         binding.popularRV.isNestedScrollingEnabled = false
-        binding.popularRV.adapter = ProductAdapter(array, object : OnClickListener{
+        binding.popularRV.adapter = ProductAdapter(array!!, object : OnClickListener{
             override fun onClicked(array: Array<String>) {
                 val bundle = Bundle()
                 bundle.putStringArray("product", array)

@@ -14,13 +14,11 @@ import android.view.*
 
 import android.app.Activity
 import android.app.Dialog
-import android.content.Context
-import android.content.DialogInterface
-import android.telephony.TelephonyManager
+import android.graphics.Color
+import android.text.Html
 import android.widget.Button
 import android.widget.EditText
-import androidx.core.content.ContextCompat.getSystemService
-import com.store.example.repository.Repository
+import com.store.example.data.repository.Repository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -49,7 +47,15 @@ class ProductFragment : Fragment() {
 
         binding.about.text = text[1]
         binding.ratingBarProduct.rating = text[3].toFloat()
-        binding.price.text = text[2]
+        if(text[2].contains("_")){
+            val temp = text[2].split("_").toTypedArray()
+            binding.price.text = temp[0]
+            binding.priceLast.visibility = View.VISIBLE
+            binding.priceLast.text = Html.fromHtml("<s>" + temp[1] + "</s>")
+            binding.price.setTextColor(Color.parseColor("#FFFF6161"))
+            binding.sale.visibility = View.VISIBLE
+        } else binding.price.text = text[2]
+
         binding.ratingFeedback.text = "${text[5]} отзывов"
         binding.availability.text = "В наличии: ${text[6]}"
         binding.productButtonback.setOnClickListener { findNavController().navigate(R.id.mainFragment) }

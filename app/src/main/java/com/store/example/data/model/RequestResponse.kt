@@ -1,4 +1,4 @@
-package com.store.example.model
+package com.store.example.data.model
 
 data class RequestResponse(
     val status_code: Int,

@@ -17,19 +17,39 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rectangle_2" />
 
-    <TextView
-        android:id="@+id/price_product"
+    <LinearLayout
+        android:id="@+id/linearLayout4"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="5dp"
-        android:fontFamily="@font/montserrat_bold"
-        android:text="Стоимость"
-        android:textColor="#000000"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="@+id/image"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/image"
-        app:layout_constraintTop_toBottomOf="@+id/image" />
+        android:layout_marginEnd="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image">
+
+        <TextView
+            android:id="@+id/price_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="109.700 $"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/price_last_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="219.400 $"
+            android:textColor="#878787"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/name_product"
@@ -43,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="@+id/image"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/image"
-        app:layout_constraintTop_toBottomOf="@+id/price_product" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 
     <TextView
         android:id="@+id/rating_product"
@@ -63,9 +83,10 @@
         style="?android:attr/ratingBarStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:numStars="5"
-        android:theme="@style/RatingBar"
         android:rating="2"
+        android:theme="@style/RatingBar"
         app:layout_constraintStart_toStartOf="@+id/name_product"
         app:layout_constraintTop_toBottomOf="@+id/name_product" />
 
@@ -73,7 +94,7 @@
         android:id="@+id/button"
         android:layout_width="150dp"
         android:layout_height="30dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/button_open"
         android:fontFamily="@font/montserrat_bold"
         android:text="Подробнее"
@@ -83,7 +104,7 @@
         app:layout_constraintEnd_toEndOf="@+id/image"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/image"
-        app:layout_constraintTop_toBottomOf="@+id/price_product" />
+        app:layout_constraintTop_toBottomOf="@+id/ratingBard" />
 
     <ImageView
         android:id="@+id/product_image"
@@ -94,4 +115,21 @@
         app:layout_constraintStart_toStartOf="@+id/image"
         app:layout_constraintTop_toTopOf="@+id/image"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/sale_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FF7F7F"
+        android:fontFamily="@font/montserrat_bold"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="SALE!"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/image"
+        app:layout_constraintTop_toTopOf="@+id/image" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

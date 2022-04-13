@@ -2,32 +2,21 @@ package com.store.example.activities
 
 import android.app.Dialog
 import android.content.Context
-import android.content.DialogInterface
-import android.graphics.Color
-import android.graphics.drawable.LayerDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.telephony.TelephonyManager
-import android.view.View
+import android.util.Log
 import android.view.Window
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
-import androidx.core.content.ContextCompat
-import androidx.core.graphics.ColorUtils
-import androidx.core.widget.addTextChangedListener
 import androidx.databinding.DataBindingUtil
-import com.google.android.material.snackbar.Snackbar
 import com.store.example.R
 import com.store.example.databinding.ActivityMainBinding
-import com.store.example.repository.Repository
+import com.store.example.data.repository.Repository
+import com.store.example.utils.Constants
 import kotlinx.coroutines.*
-import android.graphics.PorterDuff
-
-import android.graphics.drawable.StateListDrawable
-
-
 
 
 class MainActivity : AppCompatActivity() {
@@ -38,6 +27,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         initDataBinding()
         geo = getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager
+        Log.i(Constants.APP_CHECK, "showDialog: ${intent.extras?.getString("GEO")}")
+        Log.i(Constants.APP_CHECK, "showDialog: ${intent.extras?.getString("IPAddress")}")
         showDialog(this)
     }
     private fun initDataBinding(){
@@ -54,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         dialogButton.setOnClickListener{
             if(_name.text.isNotEmpty() && _number.text.isNotEmpty()){
                 job = CoroutineScope(Dispatchers.IO).launch {
-                    Repository().getResponse(_name.text.toString(), _number.text.toString(), geo.networkCountryIso, "asdas")
+                    Repository().getResponse(_name.text.toString(), _number.text.toString(), intent.getStringExtra("GEO").toString(), intent.getStringExtra("APAddress").toString())
                 }
             } else {
                 Toast.makeText(this, "Должы быть все заполненные поля!", Toast.LENGTH_SHORT).show()
