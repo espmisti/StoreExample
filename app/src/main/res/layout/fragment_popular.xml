@@ -5,7 +5,7 @@
     <data>
         <variable
             name="popular"
-            type="com.store.example.screens.popular_products.PopularFragment" />
+            type="com.nutrastore.blanketmag.screens.popular_products.PopularFragment" />
     </data>
 
     <LinearLayout

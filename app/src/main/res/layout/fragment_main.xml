@@ -5,8 +5,8 @@
 
     <data>
         <variable
-            name="ss"
-            type="com.store.example.screens.main.MainFragment" />
+            name="main"
+            type="com.nutrastore.blanketmag.screens.main.MainFragment" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -65,6 +65,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
@@ -93,9 +94,10 @@
 
                 <androidx.fragment.app.FragmentContainerView
                     android:id="@+id/fragmentContainerView5"
-                    android:name="com.store.example.screens.popular_products.PopularFragment"
+                    android:name="com.nutrastore.blanketmag.screens.popular_products.PopularFragment"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    tools:layout="@layout/fragment_popular" />
 
                 <ImageView
                     android:id="@+id/line_2"
@@ -105,10 +107,11 @@
                     app:srcCompat="@drawable/rectangle" />
 
                 <androidx.fragment.app.FragmentContainerView
-                    android:id="@+id/fragmentContainerView2"
-                    android:name="com.store.example.screens.all_products.AllProductsFragment"
+                    android:id="@+id/fragmentContainerView4"
+                    android:name="com.nutrastore.blanketmag.screens.all_products.AllProductsFragment"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    tools:layout="@layout/fragment_all_products"/>
 
                 <ImageView
                     android:id="@+id/line_3"

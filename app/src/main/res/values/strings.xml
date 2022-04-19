@@ -1,126 +1,488 @@
 <resources>
-    <string name="app_name">StoreExample</string>
-
-
+    <string name="app_name">Organic Shop</string>
 
     <!--  Мексиканский  -->
     <string-array name="product_mexico">
-        <item>Мексиканский</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra justo nec ultrices dui sapien eget mi proin. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Ornare arcu dui vivamus arcu felis. Eget sit amet tellus cras adipiscing enim eu turpis. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Amet volutpat consequat mauris nunc congue nisi vitae. Sed nisi lacus sed viverra tellus in hac habitasse. Sodales neque sodales ut etiam sit amet. Elementum sagittis vitae et leo duis ut diam. Congue nisi vitae suscipit tellus mauris a diam. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique.\n\n
-        Nec dui nunc mattis enim ut tellus. Non sodales neque sodales ut etiam. Hendrerit dolor magna eget est lorem ipsum dolor sit. Urna nunc id cursus metus aliquam. Sit amet risus nullam eget. Diam in arcu cursus euismod quis viverra nibh cras. Cras ornare arcu dui vivamus. Non pulvinar neque laoreet suspendisse. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Libero id faucibus nisl tincidunt eget nullam. A arcu cursus vitae congue mauris rhoncus. Pulvinar proin gravida hendrerit lectus a. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat.\n\n</item>
-        <item>890 PESOS_1780</item>
+        <item>Idealica</item>
+        <item>
+            - CONTIENE FITOIRISINA NATURAL\n\n
+            - EFECTO CLÍNICAMENTE TESTEADO Y APROBADO\n\n
+            - SIN REDUCCIÓN DE PECHO Y FLACIDEZ DE LA PIEL\n\n
+            - EL PRODUCTO ESTÁ CERTIFICADO EN LA UE\n\n\n\n
+            IDEALICA fue elaborada con la participación de importantes centros clínicos de nutrición y alimetación saludable\n\n\n
+            ¿CÓMO PUEDE CAMBIAR SU CUERPO CON IDEALICA EN 28 DÍAS?\n\n
+            1-7 días\n
+            IDEALICA comienza a transformar los depósitos "malos" en el cuerpo (lípidos blancos) en lípidos marrones "buenos", reduce el volúmen y el peso del cuerpo.\n\n
+            8-19 días\n
+            Una pérdida de peso de hasta 6-8 kg. Empieza a formarse una hermosa silueta del cuerpo.\n\n
+            20-28 días\n
+            El cuerpo se limpia y se rejuvenece. Una pérdida de peso hasta 12-14 kg. Consolidación de los logros.\n\n\n\n
+            ¿POR QUÉ IDEALICA ES TAN EFECTIVA?\n\n
+            PHYTOIRISINE ( UN EXTRACTO DE LA PLANTA RAMBUTAN)\n
+            Transforma los lípidos blancos "dañinos" a los marrones "útiles", que se eliminan fácilmente del cuerpo\n\n
+            EXTRACTOS DE KIWANO (CUCUMIS METULIFERUS) Y CHERIMOYA\n
+            Drenaje y desintoxicación del cuerpo\n\n
+            EXTRACTOS DE CAFÉ VERDE TIBETANO, TÉ VERDE "SHAMBHALA", NARANJA AGRIA\n
+            Aumenta el metabolismo en 8 veces, tiene un efecto antioxidante más fuerte\n\n
+            L-CARNITINA, PICOLINATO DE CROMO\n
+            Fortalecen el potencial energético del cuerpo, reducen el apetito
+        </item>
+        <item>890 PESOS_1 780 PESOS</item>
         <item>5</item>
-        <item>capcap</item>
-        <item>115</item>
-        <item>28531</item>
+        <item>idealica_iimg1_iimg2_iimg3_iimg4</item>
+        <item>581</item>
+        <item>116</item>
     </string-array>
 
     <!--  Перуанский  -->
-    <string-array name="product_peru">
-        <item>Перуанский №1</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra justo nec ultrices dui sapien eget mi proin. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Ornare arcu dui vivamus arcu felis. Eget sit amet tellus cras adipiscing enim eu turpis. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Amet volutpat consequat mauris nunc congue nisi vitae. Sed nisi lacus sed viverra tellus in hac habitasse. Sodales neque sodales ut etiam sit amet. Elementum sagittis vitae et leo duis ut diam. Congue nisi vitae suscipit tellus mauris a diam. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique.\n\n
-        Nec dui nunc mattis enim ut tellus. Non sodales neque sodales ut etiam. Hendrerit dolor magna eget est lorem ipsum dolor sit. Urna nunc id cursus metus aliquam. Sit amet risus nullam eget. Diam in arcu cursus euismod quis viverra nibh cras. Cras ornare arcu dui vivamus. Non pulvinar neque laoreet suspendisse. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Libero id faucibus nisl tincidunt eget nullam. A arcu cursus vitae congue mauris rhoncus. Pulvinar proin gravida hendrerit lectus a. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat.\n\n</item>
-        <item>298 Soles</item>
+    <string-array name="product_peru_idelica">
+        <item>Idealica</item>
+        <item>
+            - CONTIENE FITOIRISINA NATURAL\n\n
+            - EFECTO CLÍNICAMENTE TESTEADO Y APROBADO\n\n
+            - SIN REDUCCIÓN DE PECHO Y FLACIDEZ DE LA PIEL\n\n
+            - EL PRODUCTO ESTÁ CERTIFICADO EN LA UE\n\n\n\n
+            IDEALICA fue elaborada con la participación de importantes centros clínicos de nutrición y alimetación saludable\n\n\n
+            ¿CÓMO PUEDE CAMBIAR SU CUERPO CON IDEALICA EN 28 DÍAS?\n\n
+            1-7 días\n
+            IDEALICA comienza a transformar los depósitos "malos" en el cuerpo (lípidos blancos) en lípidos marrones "buenos", reduce el volúmen y el peso del cuerpo.\n\n
+            8-19 días\n
+            Una pérdida de peso de hasta 6-8 kg. Empieza a formarse una hermosa silueta del cuerpo.\n\n
+            20-28 días\n
+            El cuerpo se limpia y se rejuvenece. Una pérdida de peso hasta 12-14 kg. Consolidación de los logros.\n\n\n\n
+            ¿POR QUÉ IDEALICA ES TAN EFECTIVA?\n\n
+            PHYTOIRISINE ( UN EXTRACTO DE LA PLANTA RAMBUTAN)\n
+            Transforma los lípidos blancos "dañinos" a los marrones "útiles", que se eliminan fácilmente del cuerpo\n\n
+            EXTRACTOS DE KIWANO (CUCUMIS METULIFERUS) Y CHERIMOYA\n
+            Drenaje y desintoxicación del cuerpo\n\n
+            EXTRACTOS DE CAFÉ VERDE TIBETANO, TÉ VERDE "SHAMBHALA", NARANJA AGRIA\n
+            Aumenta el metabolismo en 8 veces, tiene un efecto antioxidante más fuerte\n\n
+            L-CARNITINA, PICOLINATO DE CROMO\n
+            Fortalecen el potencial energético del cuerpo, reducen el apetito
+        </item>
+        <item>149 Soles_298 Soles</item>
         <item>5</item>
-        <item>capcap</item>
-        <item>6234</item>
-        <item>452</item>
+        <item>idealica_iimg1_iimg2_iimg3_iimg4</item>
+        <item>711</item>
+        <item>148</item>
     </string-array>
 
-    <string-array name="product_peru_2">
-        <item>Перуанский №2</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra justo nec ultrices dui sapien eget mi proin. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Ornare arcu dui vivamus arcu felis. Eget sit amet tellus cras adipiscing enim eu turpis. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Amet volutpat consequat mauris nunc congue nisi vitae. Sed nisi lacus sed viverra tellus in hac habitasse. Sodales neque sodales ut etiam sit amet. Elementum sagittis vitae et leo duis ut diam. Congue nisi vitae suscipit tellus mauris a diam. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique.\n\n
-        Nec dui nunc mattis enim ut tellus. Non sodales neque sodales ut etiam. Hendrerit dolor magna eget est lorem ipsum dolor sit. Urna nunc id cursus metus aliquam. Sit amet risus nullam eget. Diam in arcu cursus euismod quis viverra nibh cras. Cras ornare arcu dui vivamus. Non pulvinar neque laoreet suspendisse. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Libero id faucibus nisl tincidunt eget nullam. A arcu cursus vitae congue mauris rhoncus. Pulvinar proin gravida hendrerit lectus a. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat.\n\n</item>
-        <item>149 Soles</item>
+    <string-array name="product_peru_biolica">
+        <item>Biolica</item>
+        <item>¿Alguna vez has imaginado cómo sería tu vida si tuvieras un cuerpo delgado, y pudieras usar la ropa que realmente quieres usar...?\n\n
+        El suplemento Biolica ha sido aprobado en todos los países de Asia, América, Europa y ahora es el turno de Perú.\n\n
+            El suplemento comenzo a venderse en farmacias a mediados de 2019, sin embargo, si ya ha intentado comprarlo, probablemente haya notado que no está mas disponible.\n\n
+            Actualmente, la única forma de obtener el producto original es el sitio oficial del distribuidor, que se puede encontrar AQUÍ. Hoy hablaremos sobre cómo Carla perdió kilos de más y sobre las dificultades que experimentó. Y si también necesita perder peso, le diremos todo sobre cómo funciona este suplemento Biolica. Y también sobre cómo obtener un descuento increíble en este nuevo producto que acaba de llegar a Perú.\n\n
+            ¡No pospongas la pérdida de peso para mañana! Comienza a tomar Biolica ahora y puedes usar un bikini en la playa muy pronto. ¡Da un paso hacia una pérdida de peso saludable y di no al exceso de peso! ¡No necesitas limitar tu dieta, puedes comer lo que quieras sin atormentarte, sin dietas crueles y ejercicios en el gimnasio! Ten confianza en la composición única de Biolica, para perder peso de la misma manera que millones de mujeres y hombres de todo el mundo han perdido peso.
+        </item>
+        <item>149 Soles_298 Soles</item>
         <item>5</item>
-        <item>capcap</item>
-        <item>2523</item>
-        <item>156</item>
+        <item>biolica_bimg1_bimg2_bimg3_bimg4</item>
+        <item>752</item>
+        <item>123</item>
+    </string-array>
+    <!--  Чилли помидорки  -->
+    <string-array name="product_chilly_idelica">
+        <item>Idealica</item>
+        <item>
+            - CONTIENE FITOIRISINA NATURAL\n\n
+            - EFECTO CLÍNICAMENTE TESTEADO Y APROBADO\n\n
+            - SIN REDUCCIÓN DE PECHO Y FLACIDEZ DE LA PIEL\n\n
+            - EL PRODUCTO ESTÁ CERTIFICADO EN LA UE\n\n\n\n
+            IDEALICA fue elaborada con la participación de importantes centros clínicos de nutrición y alimetación saludable\n\n\n
+            ¿CÓMO PUEDE CAMBIAR SU CUERPO CON IDEALICA EN 28 DÍAS?\n\n
+            1-7 días\n
+            IDEALICA comienza a transformar los depósitos "malos" en el cuerpo (lípidos blancos) en lípidos marrones "buenos", reduce el volúmen y el peso del cuerpo.\n\n
+            8-19 días\n
+            Una pérdida de peso de hasta 6-8 kg. Empieza a formarse una hermosa silueta del cuerpo.\n\n
+            20-28 días\n
+            El cuerpo se limpia y se rejuvenece. Una pérdida de peso hasta 12-14 kg. Consolidación de los logros.\n\n\n\n
+            ¿POR QUÉ IDEALICA ES TAN EFECTIVA?\n\n
+            PHYTOIRISINE ( UN EXTRACTO DE LA PLANTA RAMBUTAN)\n
+            Transforma los lípidos blancos "dañinos" a los marrones "útiles", que se eliminan fácilmente del cuerpo\n\n
+            EXTRACTOS DE KIWANO (CUCUMIS METULIFERUS) Y CHERIMOYA\n
+            Drenaje y desintoxicación del cuerpo\n\n
+            EXTRACTOS DE CAFÉ VERDE TIBETANO, TÉ VERDE "SHAMBHALA", NARANJA AGRIA\n
+            Aumenta el metabolismo en 8 veces, tiene un efecto antioxidante más fuerte\n\n
+            L-CARNITINA, PICOLINATO DE CROMO\n
+            Fortalecen el potencial energético del cuerpo, reducen el apetito
+        </item>
+        <item>30 990 PESOS_61 980</item>
+        <item>5</item>
+        <item>idealica_iimg1_iimg2_iimg3_iimg4</item>
+        <item>699</item>
+        <item>114</item>
     </string-array>
 
+    <string-array name="product_chilly_biolica">
+        <item>Biolica</item>
+        <item>¿Alguna vez has imaginado cómo sería tu vida si tuvieras un cuerpo delgado, y pudieras usar la ropa que realmente quieres usar...?\n\n
+        El suplemento Biolica ha sido aprobado en todos los países de Asia, América, Europa y ahora es el turno de Perú.\n\n
+            El suplemento comenzo a venderse en farmacias a mediados de 2019, sin embargo, si ya ha intentado comprarlo, probablemente haya notado que no está mas disponible.\n\n
+            Actualmente, la única forma de obtener el producto original es el sitio oficial del distribuidor, que se puede encontrar AQUÍ. Hoy hablaremos sobre cómo Carla perdió kilos de más y sobre las dificultades que experimentó. Y si también necesita perder peso, le diremos todo sobre cómo funciona este suplemento Biolica. Y también sobre cómo obtener un descuento increíble en este nuevo producto que acaba de llegar a Perú.\n\n
+            ¡No pospongas la pérdida de peso para mañana! Comienza a tomar Biolica ahora y puedes usar un bikini en la playa muy pronto. ¡Da un paso hacia una pérdida de peso saludable y di no al exceso de peso! ¡No necesitas limitar tu dieta, puedes comer lo que quieras sin atormentarte, sin dietas crueles y ejercicios en el gimnasio! Ten confianza en la composición única de Biolica, para perder peso de la misma manera que millones de mujeres y hombres de todo el mundo han perdido peso.
+        </item>
+        <item>30 990 PESOS_61 980</item>
+        <item>5</item>
+        <item>biolica_bimg1_bimg2_bimg3_bimg4</item>
+        <item>681</item>
+        <item>101</item>
+    </string-array>
+
+    <!--  Колумбийский  -->
+    <string-array name="product_co_idelica">
+        <item>Idealica</item>
+        <item>
+            - CONTIENE FITOIRISINA NATURAL\n\n
+            - EFECTO CLÍNICAMENTE TESTEADO Y APROBADO\n\n
+            - SIN REDUCCIÓN DE PECHO Y FLACIDEZ DE LA PIEL\n\n
+            - EL PRODUCTO ESTÁ CERTIFICADO EN LA UE\n\n\n\n
+            IDEALICA fue elaborada con la participación de importantes centros clínicos de nutrición y alimetación saludable\n\n\n
+            ¿CÓMO PUEDE CAMBIAR SU CUERPO CON IDEALICA EN 28 DÍAS?\n\n
+            1-7 días\n
+            IDEALICA comienza a transformar los depósitos "malos" en el cuerpo (lípidos blancos) en lípidos marrones "buenos", reduce el volúmen y el peso del cuerpo.\n\n
+            8-19 días\n
+            Una pérdida de peso de hasta 6-8 kg. Empieza a formarse una hermosa silueta del cuerpo.\n\n
+            20-28 días\n
+            El cuerpo se limpia y se rejuvenece. Una pérdida de peso hasta 12-14 kg. Consolidación de los logros.\n\n\n\n
+            ¿POR QUÉ IDEALICA ES TAN EFECTIVA?\n\n
+            PHYTOIRISINE ( UN EXTRACTO DE LA PLANTA RAMBUTAN)\n
+            Transforma los lípidos blancos "dañinos" a los marrones "útiles", que se eliminan fácilmente del cuerpo\n\n
+            EXTRACTOS DE KIWANO (CUCUMIS METULIFERUS) Y CHERIMOYA\n
+            Drenaje y desintoxicación del cuerpo\n\n
+            EXTRACTOS DE CAFÉ VERDE TIBETANO, TÉ VERDE "SHAMBHALA", NARANJA AGRIA\n
+            Aumenta el metabolismo en 8 veces, tiene un efecto antioxidante más fuerte\n\n
+            L-CARNITINA, PICOLINATO DE CROMO\n
+            Fortalecen el potencial energético del cuerpo, reducen el apetito
+        </item>
+        <item>$128 000_$256 000</item>
+        <item>5</item>
+        <item>idealica_iimg1_iimg2_iimg3_iimg4</item>
+        <item>7</item>
+        <item>109</item>
+    </string-array>
+
+    <string-array name="product_co_biolica">
+        <item>Biolica</item>
+        <item>¿Alguna vez has imaginado cómo sería tu vida si tuvieras un cuerpo delgado, y pudieras usar la ropa que realmente quieres usar...?\n\n
+        El suplemento Biolica ha sido aprobado en todos los países de Asia, América, Europa y ahora es el turno de Perú.\n\n
+            El suplemento comenzo a venderse en farmacias a mediados de 2019, sin embargo, si ya ha intentado comprarlo, probablemente haya notado que no está mas disponible.\n\n
+            Actualmente, la única forma de obtener el producto original es el sitio oficial del distribuidor, que se puede encontrar AQUÍ. Hoy hablaremos sobre cómo Carla perdió kilos de más y sobre las dificultades que experimentó. Y si también necesita perder peso, le diremos todo sobre cómo funciona este suplemento Biolica. Y también sobre cómo obtener un descuento increíble en este nuevo producto que acaba de llegar a Perú.\n\n
+            ¡No pospongas la pérdida de peso para mañana! Comienza a tomar Biolica ahora y puedes usar un bikini en la playa muy pronto. ¡Da un paso hacia una pérdida de peso saludable y di no al exceso de peso! ¡No necesitas limitar tu dieta, puedes comer lo que quieras sin atormentarte, sin dietas crueles y ejercicios en el gimnasio! Ten confianza en la composición única de Biolica, para perder peso de la misma manera que millones de mujeres y hombres de todo el mundo han perdido peso.
+        </item>
+        <item>$109 700_$219 400</item>
+        <item>5</item>
+        <item>biolica_bimg1_bimg2_bimg3_bimg4</item>
+        <item>7</item>
+        <item>149</item>
+    </string-array>
 
     <!--    -->
-    <string-array name="product_1">
-        <item>Название продукта</item>
-        <item>Описание продукта</item>
+    <string-array name="product_zalastara">
+        <item>Zalastara</item>
+        <item>Un remedio para adelgazar, saludable, sin aditivos ni colorantes. Con la adición de aceite de Aloe Vera y una gota de mantequilla de maní</item>
         <item>1 RUB</item>
-        <item>1</item>
-        <item>capcap</item>
-        <item>10</item>
-        <item>10</item>
+        <item>1.3</item>
+        <item>zalastaraimg</item>
+        <item>4</item>
+        <item>2352</item>
     </string-array>
-    <string-array name="product_2">
-        <item>Название продукта</item>
-        <item>Описание продукта</item>
+
+    <string-array name="product_BioCetaNol">
+        <item>BioCetaNol</item>
+        <item>Una nueva herramienta para adelgazar, de Suiza. En la composición de los cuales los aceites. No aplicable para uso externo</item>
+        <item>1 RUB</item>
+        <item>1.7</item>
+        <item>biocetanolimg</item>
+        <item>3</item>
+        <item>4924</item>
+    </string-array>
+
+    <string-array name="product_Lipastack">
+        <item>Lipastack</item>
+        <item>Una nueva herramienta para adelgazar, de Suiza. En la composición de los cuales los aceites. No aplicable para uso externo</item>
+        <item>1 RUB</item>
+        <item>1.8</item>
+        <item>lipastackimg</item>
+        <item>3</item>
+        <item>3112</item>
+    </string-array>
+
+    <string-array name="product_FreeBioGas">
+        <item>FreeBioGas</item>
+        <item>Un remedio para adelgazar, saludable, sin aditivos ni colorantes. Con la adición de aceite de Aloe Vera y una gota de mantequilla de maní</item>
         <item>1 RUB</item>
         <item>1</item>
-        <item>capcap</item>
-        <item>10</item>
-        <item>10</item>
+        <item>freebiogasimg</item>
+        <item>3</item>
+        <item>2891</item>
+    </string-array>
+
+    <string-array name="product_Alquno">
+        <item>Alquno</item>
+        <item>Una nueva herramienta para adelgazar, de Suiza. En la composición de los cuales los aceites. No aplicable para uso externo</item>
+        <item>1 RUB</item>
+        <item>1.4</item>
+        <item>alqunoimg</item>
+        <item>1</item>
+        <item>2052</item>
+    </string-array>
+
+    <string-array name="product_SlimBioDave">
+        <item>SlimBioDave</item>
+        <item>Un remedio para adelgazar, saludable, sin aditivos ni colorantes. Con la adición de aceite de Aloe Vera y una gota de mantequilla de maní</item>
+        <item>1 RUB</item>
+        <item>2.1</item>
+        <item>slimbiodaveimg</item>
+        <item>1</item>
+        <item>4998</item>
+    </string-array>
+
+    <string-array name="product_Chirazam">
+        <item>Chirazam</item>
+        <item>Una nueva herramienta para adelgazar, de Suiza. En la composición de los cuales los aceites. No aplicable para uso externo</item>
+        <item>1 RUB</item>
+        <item>1</item>
+        <item>chirazamimg</item>
+        <item>2</item>
+        <item>2725</item>
     </string-array>
     <!--    -->
-    <string-array name="product_4">
-        <item>Название продукта</item>      <!-- Название -->
-        <item>Описание продукта</item>      <!-- Описание -->
-        <item>1 RUB</item>                  <!-- Стоимость -->
-        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
-        <item>capcap</item>                 <!-- Название изображения товара -->
-        <item>10</item>                     <!-- Количество товара -->
-        <item>10</item>                     <!-- Отзывы  -->
-    </string-array>
-    <string-array name="product_5">
-        <item>Название продукта</item>      <!-- Название -->
-        <item>Описание продукта</item>      <!-- Описание -->
-        <item>1 RUB</item>                  <!-- Стоимость -->
-        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
-        <item>capcap</item>                 <!-- Название изображения товара -->
-        <item>10</item>                     <!-- Количество товара -->
-        <item>10</item>                     <!-- Отзывы  -->
-    </string-array>
-    <string-array name="product_6">
-        <item>Название продукта</item>      <!-- Название -->
-        <item>Описание продукта</item>      <!-- Описание -->
-        <item>1 RUB</item>                  <!-- Стоимость -->
-        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
-        <item>capcap</item>                 <!-- Название изображения товара -->
-        <item>10</item>                     <!-- Количество товара -->
-        <item>10</item>                     <!-- Отзывы  -->
-    </string-array>
-    <string-array name="product_7">
-        <item>Название продукта</item>      <!-- Название -->
-        <item>Описание продукта</item>      <!-- Описание -->
-        <item>1 RUB</item>                  <!-- Стоимость -->
-        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
-        <item>capcap</item>                 <!-- Название изображения товара -->
-        <item>10</item>                     <!-- Количество товара -->
-        <item>10</item>                     <!-- Отзывы  -->
-    </string-array>
-    <string-array name="product_8">
-        <item>Название продукта</item>      <!-- Название -->
-        <item>Описание продукта</item>      <!-- Описание -->
-        <item>1 RUB</item>                  <!-- Стоимость -->
-        <item>1</item>                      <!-- Рейтинг (макс.5 звезд) -->
-        <item>capcap</item>                 <!-- Название изображения товара -->
-        <item>10</item>                     <!-- Количество товара -->
-        <item>10</item>                     <!-- Отзывы  -->
-    </string-array>
+
     <!--  Отзывы  -->
-    <string-array name="person_1">
-        <item>Carmen D.</item>
-        <item>17.03.2022</item>
-        <item>5</item>
-        <item>Maravillosa fórmula con ácido hialurónico. Me encanta.</item>
+    <string-array name="zalastara_1">
+        <item>Antonio</item>
+        <item>10.04.2022</item>
+        <item>1</item>
+        <item>¡Qué asco! Sabor terrible, efecto incomprensible, un poco de dolor de cabeza! ¡No hay efecto! Comprar Ideológico o Biológico.</item>
     </string-array>
-    <string-array name="person_2">
-        <item>Karina</item>
-        <item>17.03.2022</item>
-        <item>5</item>
-        <item>He probado ácido hialurónico en múltiples oportunidades y sus resultados son siempre sorprendentes aunque odio las agujas. Inno Gialuron es la solución.</item>
+    <string-array name="zalastara_2">
+        <item>Manuel</item>
+        <item>12.04.2022</item>
+        <item>2</item>
+        <item>Sin sentido bienes! Mejor tomar Biológico o Idealica. Estos son los mejores productos que hay</item>
     </string-array>
-    <string-array name="person_3">
-        <item>Roberta</item>
-        <item>18.03.2022</item>
+    <string-array name="zalastara_3">
+        <item>Pablo</item>
+        <item>12.04.2022</item>
+        <item>1</item>
+        <item>No ordenes, no hay efecto. 2 semanas fueron en vano</item>
+    </string-array>
+    <string-array name="zalastara_4">
+        <item>Alejandro</item>
+        <item>11.04.2022</item>
+        <item>1</item>
+        <item>No hay absolutamente ningún sentido en el producto, no hay efecto. Le aconsejo que compre Delica</item>
+    </string-array>
+    <!--    -->
+    <string-array name="biocetanol_1">
+        <item>María</item>
+        <item>09.04.2022</item>
+        <item>1</item>
+        <item>El producto no cumple con la expectativa, no he perdido peso. Pude perder peso cuando adquirí Biología e Idealica</item>
+    </string-array>
+    <string-array name="biocetanol_2">
+        <item>Adrián</item>
+        <item>10.04.2022</item>
+        <item>1</item>
+        <item>No obtuve ningún efecto del producto. Aconsejo Biológico o Idealica, perdí 20 kilogramos!</item>
+    </string-array>
+    <string-array name="biocetanol_3">
+        <item>Isabel</item>
+        <item>12.04.2022</item>
+        <item>1</item>
+        <item>No lo recomiendo! ¡No tiene sentido! ¡Insípido! Del Delica biológica es mucho mejor! Lo estoy, porque por 15 kilos!</item>
+    </string-array>
+    <!--    -->
+    <string-array name="lipastack_1">
+        <item>Carla</item>
+        <item>05.04.2022</item>
+        <item>1</item>
+        <item>El producto es absolutamente inútil. Le aconsejo que ordene Idealica</item>
+    </string-array>
+    <string-array name="lipastack_2">
+        <item>Francisco</item>
+        <item>12.04.2022</item>
+        <item>1</item>
+        <item>No hay pérdida de peso, es un engaño! Orden Biológico o Ideológica!</item>
+    </string-array>
+    <string-array name="lipastack_3">
+        <item>Alejandro</item>
+        <item>14.04.2022</item>
+        <item>2</item>
+        <item>Entiendo a la gente que ha dado notas bajas. ¡NO HAY EFECTO! Bi Biologica Ide Idealia</item>
+    </string-array>
+    <!--    -->
+    <string-array name="chirazam_1">
+        <item>Álvaro</item>
+        <item>05.04.2022</item>
+        <item>2</item>
+        <item>Sin sentido píldoras! La gente aconseja Idealia, creo que es mejor usarlo</item>
+    </string-array>
+    <string-array name="chirazam_2">
+        <item>Adrián</item>
+        <item>10.04.2022</item>
+        <item>1</item>
+        <item>No tiene sentido usar estas píldoras</item>
+    </string-array>
+    <!--    -->
+    <string-array name="freebiogas_1">
+        <item>Andrés</item>
+        <item>11.04.2022</item>
+        <item>1</item>
+        <item>No entendía este producto absolutamente, no ayudó</item>
+    </string-array>
+    <string-array name="freebiogas_2">
+        <item>Antonio</item>
+        <item>12.04.2022</item>
+        <item>1</item>
+        <item>Amigos! Solo Biológica o Idealica le ayudará bien! Sólo que realmente funcionan!</item>
+    </string-array>
+    <string-array name="freebiogas_3">
+        <item>Benjamin</item>
+        <item>14.04.2022</item>
+        <item>1</item>
+        <item>No aconsejo, probé, el sabor y la calidad son mucho mejores en Idealica</item>
+    </string-array>
+    <!--    -->
+    <string-array name="alquno_1">
+        <item>Andrés</item>
+        <item>13.04.2022</item>
+        <item>1</item>
+        <item>Producto inútil, Idealia es mejor</item>
+    </string-array>
+    <!--    -->
+    <string-array name="slimbiodave_1">
+        <item>Gonzalo</item>
+        <item>10.04.2022</item>
+        <item>2</item>
+        <item>No compre este producto, todo el mundo ya ha dicho que Idealia o Biológico es mejor</item>
+    </string-array>
+    <!--    -->
+    <string-array name="idelica_1">
+        <item>Adelaída</item>
+        <item>12.04.2022</item>
         <item>5</item>
-        <item>Estoy radiante, joven y bella. Nadie me daría más de 50 años.</item>
+        <item>¡UN PRODUCTO REALMENTE FUNCIONAL! Y quién dice que los demás son solo competidores o personas que no compraron. Este es el mejor producto del mercado,
+Lo uso constantemente y pierdo peso fácilmente entre 8 y 9 kilogramos por semana. El agua no se detiene, me siento genial,
+Duermo muy bien. No escuches a nadie y úsalo. Aquí están mis fotos.</item>
+        <item>feedback_1</item>
+    </string-array>
+    <string-array name="idelica_2">
+        <item>Adriana</item>
+        <item>14.04.2022</item>
+        <item>5</item>
+        <item>Sí, es un producto ideal, al igual que Biotica. Los bebo juntos. El efecto es increíble. Perdió 7 kilos en una semana.
+Este es un resultado real!</item>
+        <item>feedback_2</item>
+    </string-array>
+    <string-array name="idelica_3">
+        <item>Aitana</item>
+        <item>13.04.2022</item>
+        <item>5</item>
+        <item>Gran producto! Pierdo peso una vez a la semana en 7-8 kilogramos, ¡sin limitarme a la comida!</item>
+        <item>feedback_3</item>
+    </string-array>
+    <string-array name="idelica_4">
+        <item>Ainhoa</item>
+        <item>10.04.2022</item>
+        <item>5</item>
+        <item>Todos mis amigos ya han comprado Idealia varias veces y nadie se ha arrepentido! Si enciendes los deportes, el efecto
+es increíble! Pesaba 74 kg, ahora peso 52! Y esto es en 2 semanas! El vientre se ha ido, las caderas son más bonitas. ¡Muchas gracias!</item>
+        <item>feedback_4</item>
+    </string-array>
+    <string-array name="idelica_5">
+        <item>Alba</item>
+        <item>12.04.2022</item>
+        <item>4.9</item>
+        <item>Sí, es lo mejor de la aplicación. Deje una solicitud, no se arrepentirá!</item>
+        <item>feedback_5</item>
+    </string-array>
+    <string-array name="idelica_6">
+        <item>Alejandra</item>
+        <item>11.04.2022</item>
+        <item>5</item>
+        <item>¡Grandes resultados, increíbles! Me sorprende, pedí con un año de anticipación.</item>
+        <item>feedback_6</item>
+    </string-array>
+    <string-array name="idelica_7">
+        <item>Alicia</item>
+        <item>09.04.2022</item>
+        <item>4.9</item>
+        <item>El mejor producto que se presenta en el mercado.</item>
+        <item>feedback_7</item>
+    </string-array>
+    <!--    -->
+    <string-array name="biolica_1">
+        <item>Amalia</item>
+        <item>10.04.2022</item>
+        <item>5</item>
+        <item>¡SE LO DIRÉ A TODO EL MUNDO DE NUEVO! EL PRODUCTO ES BIOLÓGICAMENTE PURO, NO RETIENE AGUA, ACTIVA LOS PROCESOS DE PÉRDIDA DE PESO DE INMEDIATO! Todo,
+quién escribe competidores negativos. Coma lo que quiera, no se limite y obtenga excelentes resultados.
+Les deseo a todos buena suerte y buen humor!</item>
+        <item>feedback_1</item>
+    </string-array>
+    <string-array name="biolica_2">
+        <item>Amanda</item>
+        <item>05.04.2022</item>
+        <item>5</item>
+        <item>El producto más puro, pérdida de peso pura. Una semana 7 kilos mínimo! Si sigues un estilo de vida saludable
+y comer bien - 10 kilogramos a la semana. Pero esto no es necesario.</item>
+        <item>feedback_2</item>
+    </string-array>
+    <string-array name="biolica_3">
+        <item>Ana</item>
+        <item>10.04.2022</item>
+        <item>5</item>
+        <item>Los resultados biológicos e idealizados son excelentes. ¡Perdí peso muy rápidamente, en solo 2 semanas!</item>
+        <item>feedback_3</item>
+    </string-array>
+    <string-array name="biolica_4">
+        <item>Andrea</item>
+        <item>12.04.2022</item>
+        <item>5</item>
+        <item>Como lo que quiero. Me gusta todo! Un gran producto, pierdo peso muy rápido!</item>
+        <item>feedback_4</item>
+    </string-array>
+    <string-array name="biolica_5">
+        <item>Ángel</item>
+        <item>12.04.2022</item>
+        <item>4.9</item>
+        <item>Rara vez dejo reseñas. Pero no puedo evitarlo. ¡El producto realmente funciona! Perdí 6 kilos en una semana,
+No hago deportes en absoluto. Como cuando puedo. El bienestar ha mejorado.</item>
+        <item>feedback_5</item>
+    </string-array>
+    <string-array name="biolica_6">
+        <item>Antonia</item>
+        <item>13.04.2022</item>
+        <item>5</item>
+        <item>¡Está bien!</item>
+        <item>feedback_6</item>
+    </string-array>
+    <string-array name="biolica_7">
+        <item>Elena</item>
+        <item>11.04.2022</item>
+        <item>5</item>
+        <item>Gracias por el gran artículo. ¡Pediré más!</item>
+        <item>feedback_7</item>
+    </string-array>
+    <!--    -->
+    <string-array name="product_fake_1">
+        <item>Bienes agotados</item>
+        <item>La mercancía fue comprada</item>
+        <item>149 Soles_298 Soles</item>
+        <item>5</item>
+        <item>fake1</item>
+        <item>752</item>
+        <item>123</item>
+    </string-array>
+    <string-array name="product_fake_2">
+        <item>Bienes agotados</item>
+        <item>La mercancía fue comprada</item>
+        <item>149 Soles_298 Soles</item>
+        <item>5</item>
+        <item>fake2</item>
+        <item>752</item>
+        <item>123</item>
     </string-array>
 </resources>

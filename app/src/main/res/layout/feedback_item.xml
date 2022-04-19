@@ -57,7 +57,15 @@
             android:id="@+id/fb_textResponse"
             android:layout_width="186dp"
             android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
             android:layout_weight="1"
             android:text="Text FeedBack" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/feedback_image"
+            android:layout_width="186dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="10dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

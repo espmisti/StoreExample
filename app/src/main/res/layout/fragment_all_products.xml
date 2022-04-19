@@ -6,7 +6,7 @@
     <data>
         <variable
             name="allproducts"
-            type="com.store.example.screens.all_products.AllProductsFragment" />
+            type="com.nutrastore.blanketmag.screens.all_products.AllProductsFragment" />
     </data>
 
     <LinearLayout

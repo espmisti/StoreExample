@@ -18,13 +18,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/ads_image"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/chilly_biolica" />
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:fontFamily="@font/montserrat_bold"
-            android:text="Оставьте контакты"
+            android:text="¿Le interesa?"
             android:textColor="#000000"
             android:textSize="18sp" />
 
@@ -34,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/montserrat_medium"
-            android:text="Оставив контакты менеджер Вам сразу перезвонит и подробно проконсультирует"
+            android:text="Después de salir de los contactos, el gerente le llamará de inmediato y le informará en detalle"
             android:textAlignment="center"
             android:textColor="#B0B0B0"
             android:textSize="14sp" />
@@ -51,7 +58,7 @@
             android:drawablePadding="10dp"
             android:ems="10"
             android:fontFamily="@font/montserrat_medium"
-            android:hint="Имя"
+            android:hint="Nombre"
             android:inputType="textPersonName"
             android:textColorHint="#C8C8C8"
             android:textSize="14sp"
@@ -71,7 +78,7 @@
             android:drawablePadding="10dp"
             android:ems="10"
             android:fontFamily="@font/montserrat_medium"
-            android:hint="Номер телефона"
+            android:hint="Número de Teléfono"
             android:inputType="phone"
             android:maxLength="10"
             android:textColorHint="#C8C8C8"
@@ -89,7 +96,7 @@
             android:layout_marginRight="10dp"
             android:background="@drawable/button_buy"
             android:fontFamily="@font/montserrat_bold"
-            android:text="Отправить"
+            android:text="Formalizar la solicitud"
             android:textAllCaps="false"
             android:textColor="#FFFFFF" />
 
@@ -100,7 +107,7 @@
             android:layout_marginBottom="15dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:text="Позже"
+            android:text="No, gracias"
             android:textAlignment="center"
             android:textColor="#C8C8C8" />
     </LinearLayout>
