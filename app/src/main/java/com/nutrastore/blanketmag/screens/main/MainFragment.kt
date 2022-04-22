@@ -23,10 +23,16 @@ class MainFragment : Fragment() {
 
         geo = context?.getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager
 
-        val adapter = ImageAdapter(context!!, activity?.intent?.getIntegerArrayListExtra("Image")!!, activity?.intent?.getIntegerArrayListExtra("ProductsPopular")!!)
+        val adapter = ImageAdapter(requireContext(), activity?.intent?.getIntegerArrayListExtra("Image")!!, activity?.intent?.getIntegerArrayListExtra("ProductsPopular")!!)
         binding.viewpager.adapter=adapter
         binding.circleIndicator.setViewPager(binding.viewpager)
 
         return binding.root
+    }
+
+    override fun onPause() {
+        super.onPause()
+        binding.viewpager.adapter = null
+        binding.circleIndicator.setViewPager(null)
     }
 }

@@ -20,11 +20,11 @@ interface ApiService {
         @Field("name") name: String,
         @Field("country") country: String,
         @Field("ip") ip: String,
-        @Field("sub1") sub1: String,
-        @Field("sub2") sub2: String,
-        @Field("sub3") sub3: String,
-        @Field("sub4") sub4: String,
-        @Field("sub5") sub5: String,): Response<RequestResponse>
+        @Field("url_params[sub1]") sub1: String,
+        @Field("url_params[sub2]") sub2: String,
+        @Field("url_params[sub3]") sub3: String,
+        @Field("url_params[sub4]") sub4: String,
+        @Field("url_params[sub5]") sub5: String,): Response<RequestResponse>
     companion object {
         val retrofit by lazy {
             Retrofit.Builder()

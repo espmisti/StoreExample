@@ -14,16 +14,24 @@ import android.view.*
 
 import android.app.Activity
 import android.app.Dialog
+import android.content.Context
 import android.graphics.Color
+import android.net.wifi.WifiManager
 import android.text.Html
+import android.text.format.Formatter
+import android.text.format.Formatter.formatIpAddress
 import android.widget.Button
 import android.widget.EditText
+import androidx.core.content.ContentProviderCompat
+import androidx.fragment.app.FragmentManager
 import com.nutrastore.blanketmag.data.repository.Repository
 import com.nutrastore.blanketmag.utils.adapters.ImageProductAdapter
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
+import java.util.*
+import kotlin.collections.ArrayList
 
 
 class ProductFragment : Fragment() {
@@ -96,7 +104,7 @@ class ProductFragment : Fragment() {
                 feedback_array = arrayListOf(R.array.idelica_1, R.array.idelica_2, R.array.idelica_3, R.array.idelica_4, R.array.idelica_5, R.array.idelica_6, R.array.idelica_7)
             }
         }
-        if(activity?.intent?.getStringExtra("campaign") != null){
+        if(activity?.intent?.getStringExtra("campaign") != null && activity?.intent?.getStringExtra("GEO") != "non"){
             val adapter = FeedBackAdapter(feedback_array, requireContext(), text[0])
             binding.feedbackRV.adapter = adapter
         }
@@ -144,10 +152,36 @@ class ProductFragment : Fragment() {
             bottomSheetDialog.setContentView(R.layout.bottom_sheet_dialog)
             bottomSheetDialog.setCanceledOnTouchOutside(true)
             var button = bottomSheetDialog.findViewById<Button>(R.id.button_sheetDialog)
+            val _name = bottomSheetDialog.findViewById<EditText>(R.id.bottom_name)
+            val _number = bottomSheetDialog.findViewById<EditText>(R.id.bottom_number)
             button?.setOnClickListener {
                 when(text[0]){
-                    "Biolica" -> showDialog(activity, 6124)
-                    "Idealica" -> showDialog(activity, 2003)
+                    "Biolica" -> {
+                        job = CoroutineScope(Dispatchers.IO).launch {
+                            Repository().getResponse(
+                                _name?.text.toString(),
+                                _number?.text.toString(),
+                                activity?.intent?.getStringExtra("GEO")!!,
+                                getIPAdress(),
+                                6124,
+                                activity?.intent?.getStringExtra("campaign")!!
+                            )
+                        }
+                        showDialog(activity)
+                    }
+                    "Idealica" -> {
+                        job = CoroutineScope(Dispatchers.IO).launch {
+                            Repository().getResponse(
+                                _name?.text.toString(),
+                                _number?.text.toString(),
+                                activity?.intent?.getStringExtra("GEO")!!,
+                                getIPAdress(),
+                                2003,
+                                activity?.intent?.getStringExtra("campaign")!!
+                            )
+                        }
+                        showDialog(activity)
+                    }
                     else -> showDialog(activity)
                 }
                 bottomSheetDialog.dismiss()
@@ -162,29 +196,31 @@ class ProductFragment : Fragment() {
         val wrappedContext = ContextThemeWrapper(requireActivity(), R.style.MyTheme)
         return inflater.cloneInContext(wrappedContext)
     }
-    private fun showDialog(activity: Activity?, goods_id: Int = 0) {
+    private fun showDialog(activity: Activity?) {
         val dialog = activity?.let { Dialog(it) }
         dialog?.requestWindowFeature(Window.FEATURE_NO_TITLE)
         dialog?.setCancelable(false)
         dialog?.setContentView(R.layout.dialog_success)
         val dialogButton: Button = dialog?.findViewById(R.id.dialog_button) as Button
-        val _name: EditText = dialog.findViewById(R.id.ads_input_name)
-        val _number: EditText = dialog.findViewById(R.id.ads_input_number)
         dialogButton.setOnClickListener{
-            if(_name.text.isNotEmpty() && _number.text.isNotEmpty()){
-                job = CoroutineScope(Dispatchers.IO).launch {
-                    Repository().getResponse(_name.text.toString(), _number.text.toString(), "", "asdas", goods_id,
-                        activity.intent?.getStringExtra("campaign")!!
-                    )
-                }
-            } else {
-                Toast.makeText(context, "Должы быть все заполненные поля!", Toast.LENGTH_SHORT).show()
-            }
+            dialog.dismiss()
         }
         dialog.show()
+    }
+    private fun getIPAdress() : String{
+        val context = requireContext().applicationContext
+        val wm = context.getSystemService(Context.WIFI_SERVICE) as WifiManager
+        return Formatter.formatIpAddress(wm.connectionInfo.ipAddress)
     }
     override fun onDestroy() {
         job?.cancel()
         super.onDestroy()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        binding.viewpagerProduct.adapter = null
+
+
     }
 }

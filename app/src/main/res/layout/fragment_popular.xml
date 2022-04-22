@@ -21,7 +21,7 @@
             android:layout_marginStart="25dp"
             android:layout_marginTop="25dp"
             android:fontFamily="@font/montserrat_bold"
-            android:text="Популярные товары"
+            android:text="Productos populares"
             android:textColor="#000000"
             android:textSize="20sp" />
 

@@ -94,7 +94,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/button_open"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Подробнее"
+        android:text="Detallado"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="12sp"

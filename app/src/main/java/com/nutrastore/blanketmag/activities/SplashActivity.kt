@@ -30,4 +30,5 @@ class SplashActivity : AppCompatActivity() {
         }
         model.result.observe(this, observer)
     }
+
 }

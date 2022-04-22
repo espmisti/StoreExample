@@ -48,4 +48,9 @@ class AllProductsFragment : Fragment() {
         }, requireContext())
         return binding.root
     }
+
+    override fun onPause() {
+        super.onPause()
+        binding.allProducts.adapter = null
+    }
 }

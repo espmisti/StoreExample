@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:fontFamily="@font/montserrat_bold"
-            android:text="Заявка успешно оформлена"
+            android:text="Solicitud formalizada con éxito"
             android:textColor="#000000"
             android:textSize="18sp" />
 
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/montserrat_medium"
-            android:text="Ваша заявка успешно оформлена, ожидайте звонка консультанта."
+            android:text="Su solicitud se ha formalizado con éxito, espere una llamada de un consultor."
             android:textAlignment="center"
             android:textColor="#B0B0B0"
             android:textSize="14sp" />
@@ -46,7 +46,7 @@
             android:layout_marginBottom="25dp"
             android:background="@drawable/button_buy"
             android:fontFamily="@font/montserrat_bold"
-            android:text="Закрыть"
+            android:text="Сerrar"
             android:textAllCaps="false"
             android:textColor="#FFFFFF" />
     </LinearLayout>

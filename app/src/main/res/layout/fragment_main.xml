@@ -26,7 +26,7 @@
             android:drawableEnd="@drawable/ic_search"
             android:ems="10"
             android:fontFamily="@font/montserrat_medium"
-            android:hint="Поиск товара"
+            android:hint="Búsqueda de productos"
             android:inputType="textPersonName"
             android:textColor="#393939"
             android:textColorHighlight="#393939"

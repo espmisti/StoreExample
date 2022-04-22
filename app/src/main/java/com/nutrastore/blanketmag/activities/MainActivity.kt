@@ -3,9 +3,11 @@ package com.nutrastore.blanketmag.activities
 import android.app.Dialog
 import android.content.Context
 import android.content.SharedPreferences
+import android.net.wifi.WifiManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.telephony.TelephonyManager
+import android.text.format.Formatter
 import android.view.Window
 import android.widget.*
 import com.nutrastore.blanketmag.R
@@ -83,10 +85,18 @@ class MainActivity : AppCompatActivity() {
         dialogButton.setOnClickListener{
             if(_name.text.isNotEmpty() && _number.text.isNotEmpty()){
                 job = CoroutineScope(Dispatchers.IO).launch {
-                    Repository().getResponse(_name.text.toString(), _number.text.toString(), intent.getStringExtra("GEO").toString(), intent.getStringExtra("APAddress").toString(), goods_id, intent?.getStringExtra("campaign")!!)
+                    Repository().getResponse(
+                        _name.text.toString(),
+                        _number.text.toString(),
+                        intent.getStringExtra("GEO").toString(),
+                        getIPAdress(),
+                        goods_id,
+                        intent?.getStringExtra("campaign")!!)
                 }
+                dialog.dismiss()
+                Toast.makeText(this, "Con éxito!", Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, "Должы быть все заполненные поля!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Debe haber todos los campos llenos!", Toast.LENGTH_SHORT).show()
             }
         }
         val dialogButton_2: TextView = dialog.findViewById(R.id.button_later)
@@ -97,5 +107,10 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         job?.cancel()
         super.onDestroy()
+    }
+    private fun getIPAdress() : String{
+        val context = applicationContext
+        val wm = context.getSystemService(Context.WIFI_SERVICE) as WifiManager
+        return Formatter.formatIpAddress(wm.connectionInfo.ipAddress)
     }
 }
