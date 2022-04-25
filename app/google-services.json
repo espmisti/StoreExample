@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "182930355148",
+    "project_id": "videocreater-cfe90",
+    "storage_bucket": "videocreater-cfe90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182930355148:android:eea8977dbeaeddc5b56369",
+        "android_client_info": {
+          "package_name": "com.nutrastore.blanketmag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182930355148-aufe9vnhua3nrs1uof9jht1vv56o70d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdKaAKn8rO8XWM_ib0DMhCeRIevzyIjQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182930355148-aufe9vnhua3nrs1uof9jht1vv56o70d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182930355148:android:ff6c0ff1b52ba585b56369",
+        "android_client_info": {
+          "package_name": "com.videocreator.trikota"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182930355148-aufe9vnhua3nrs1uof9jht1vv56o70d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdKaAKn8rO8XWM_ib0DMhCeRIevzyIjQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182930355148-aufe9vnhua3nrs1uof9jht1vv56o70d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

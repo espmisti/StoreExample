@@ -32,8 +32,8 @@ class Repository {
             s5 = "none"
         }
 
-        Log.i(Constants.APP_CHECK, "\n\nGOODS_ID: $goods_id\nNUMBER:$number\nNAME:$name\nGEO:$geo\nIP: $ip\nsub1: $s1\nsub2: $s2\nsub3: $s3\nsub4: $s4\nsub5: $s5")
-        val response = ApiService.retrofit.sendData(Constants.API_KEY, goods_id, number, name, geo, ip, s1, s2, s3, s4, s5)
+        Log.i(Constants.APP_CHECK, "\n\nGOODS_ID: $goods_id\nNUMBER:$number\nNAME:$name\nGEO:${geo.uppercase()}\nIP: $ip\nsub1: $s1\nsub2: $s2\nsub3: $s3\nsub4: $s4\nsub5: $s5")
+        val response = ApiService.retrofit.sendData(Constants.API_KEY, goods_id, number, name, geo.uppercase(), ip, s1, s2, s3, s4, s5)
         if(response.isSuccessful){
             val result = response.body()!!
             Log.i("APP_CHECK", "[API]: $result")
